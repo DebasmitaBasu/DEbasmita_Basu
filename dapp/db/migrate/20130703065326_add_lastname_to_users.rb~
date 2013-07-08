@@ -1,4 +1,0 @@
-class AddLastnameToUsers < ActiveRecord::Migration
-  def change
-  end
-end
