@@ -2,8 +2,8 @@ class CreatePosts < ActiveRecord::Migration
   def change
     create_table :posts do |t|
       t.belongs_to :users
-      t.integer :post_id
-      t.string :post_name
+      t.string :Designation
+      t.string :username
       t.timestamps
     end
   end

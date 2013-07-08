@@ -7,7 +7,7 @@ class User < ActiveRecord::Base
   protected
   def ensure_username
     if Username.nil?
-      self.Username = self.Firstname+self.Lastname
+      Username = Firstname+Lastname
     end
   end
 end

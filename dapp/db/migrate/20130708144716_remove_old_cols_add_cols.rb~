@@ -1,0 +1,6 @@
+class RemoveOldColsAddCols < ActiveRecord::Migration
+  def change
+    add_column:posts, :Post_id,
+    add_column:posts, :Post_name, :string
+  end
+end
